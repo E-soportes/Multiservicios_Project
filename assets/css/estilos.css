@@ -1,0 +1,64 @@
+/* Estilos personalizados Multiservicios */
+
+/* Sidebar */
+.sidebar {
+    height: calc(100vh - 56px);
+    border-right: 1px solid rgba(0,0,0,.125);
+}
+
+.nav-link {
+    color: #495057 !important;
+}
+
+.nav-link:hover {
+    background-color: rgba(0,0,0,.05);
+    border-right: 3px solid #0d6efd;
+}
+
+/* Cards métricas */
+.border-left-primary {
+    border-left: .25rem solid #4e73df !important;
+}
+
+.border-left-success {
+    border-left: .25rem solid #1cc88a !important;
+}
+
+.border-left-warning {
+    border-left: .25rem solid #f6c23e !important;
+}
+
+/* Tablas */
+.table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+/* Forms */
+.form-label {
+    font-weight: 500;
+}
+
+.btn {
+    border-radius: .375rem;
+}
+
+/* Badges */
+.badge {
+    font-size: .75em;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .sidebar {
+        margin-left: -250px;
+    }
+}
+
+/* Dark mode compatible */
+@media (prefers-color-scheme: dark) {
+    .bg-light {
+        background-color: #343a40 !important;
+    }
+}
+
